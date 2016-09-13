@@ -7,3 +7,4 @@ RUN apt-get update && apt-get install wget
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld" ]
 ENV FOO bar
 RUN echo $FOO
+RUN mkdir integration_test
